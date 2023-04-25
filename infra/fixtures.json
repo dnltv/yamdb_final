@@ -1,0 +1,163 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-04-20T10:41:02.928Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Фильмы | films",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-04-20T10:41:09.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Книги | books",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-04-20T10:41:17.603Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Песни | songs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-04-20T10:41:39.617Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Побег из Шоушенка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-04-20T10:42:07.495Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Страх и ненависть в Лас-Вегасе",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-04-20T10:43:02.868Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Led Zeppelin — Stairway to Heaven",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5q4c1qnh0w4janjj4vl9684857pcdply",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUWulToxIztnqBwnIQXUSk07Ie4OlTrA-t97_2UG2dY6bC0vw5jM2XTm9LtF0UeedpDuMt1mq_O0LmO0u2IP2ux1Tvl5Ody_gyqtfmsmD-Kpy8QEDl0EiJgKaCIXSlBmRWTOgYBReyTtfQB2gox9YTHvD7UXNqA:1ppRid:76znIAC7ADA8ByWVfaB1xsJ-LTfP3HmRrBpIR7DM-rE",
+    "expire_date": "2023-05-04T10:40:51.284Z"
+  }
+},
+{
+  "model": "reviews.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$oFZooMSr6Zoh9sFKACAV5A$oPu7jpCx1LToX2EUF0BFSUqRA0tKiveFghqYg+og9TU=",
+    "last_login": "2023-04-20T10:40:51.282Z",
+    "is_superuser": true,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-04-20T10:40:19.116Z",
+    "username": "admin",
+    "email": "admin@mail.ru",
+    "first_name": null,
+    "last_name": null,
+    "bio": null,
+    "role": "user",
+    "confirmation_code": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "reviews.category",
+  "pk": 1,
+  "fields": {
+    "name": "Фильмы",
+    "slug": "films"
+  }
+},
+{
+  "model": "reviews.category",
+  "pk": 2,
+  "fields": {
+    "name": "Книги",
+    "slug": "books"
+  }
+},
+{
+  "model": "reviews.category",
+  "pk": 3,
+  "fields": {
+    "name": "Песни",
+    "slug": "songs"
+  }
+},
+{
+  "model": "reviews.title",
+  "pk": 1,
+  "fields": {
+    "name": "Побег из Шоушенка",
+    "year": 1994,
+    "description": "Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.",
+    "category": 1
+  }
+},
+{
+  "model": "reviews.title",
+  "pk": 2,
+  "fields": {
+    "name": "Страх и ненависть в Лас-Вегасе",
+    "year": 1971,
+    "description": "«Страх и отвращение в Лас-Вегасе. Дикое путешествие в сердце Американской мечты» — скандальный роман американского гонзо-журналиста и писателя Хантера Томпсона, вышедший в 1971 году. Роман является сатирой на понятие — «Американская мечта».",
+    "category": 2
+  }
+},
+{
+  "model": "reviews.title",
+  "pk": 3,
+  "fields": {
+    "name": "Led Zeppelin — Stairway to Heaven",
+    "year": 1971,
+    "description": "Песня британской рок-группы Led Zeppelin, выпущенная на альбоме Led Zeppelin IV.",
+    "category": 3
+  }
+}
+]
