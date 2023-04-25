@@ -11,6 +11,7 @@ services:
   web:
     build: ../api_yamdb/
     restart: always
+#    image: dnltv/api_yamdb:latest
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
