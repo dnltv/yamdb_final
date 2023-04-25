@@ -5,7 +5,6 @@ from typing import Any, Dict, List, Optional
 
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandParser
-
 from reviews.models import (Category, Comment, Genre, GenreTitle, Review,
                             Title, User)
 
