@@ -1,3 +1,5 @@
+![example workflow ](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-master?event=push)
+
 ## YaMDb project
 
 ### Description
@@ -11,8 +13,8 @@ More information in the base [repository](https://github.com/dnltv/api_yamdb).
 ### Preparing for launch
 - Clone the repository and go to it on the command line.
 ```bash
-git clone https://github.com/dnltv/infra_sp2.git
-cd infra_sp2
+git clone https://github.com/dnltv/yamdb_final.git
+cd yamdb_final
 ```
 
 - Install and activate the virtual environment taking into account the Python 3.7 version (choose python at least 3.7):
@@ -49,7 +51,7 @@ nano infra/.env
 ```
 
 ```
-ADJANGO_TOKEN=YOUR_TOKEN
+DJANGO_TOKEN=YOUR_TOKEN
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres
 POSTGRES_USER=postgres
