@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: dnltv/yamdb_final:latest
+          tags: dnltv/api_yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
