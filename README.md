@@ -1,5 +1,5 @@
 ![example workflow ](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-master?event=push)
-
+[![Django-app workflow](https://github.com/dnltv/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/dnltv/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ## YaMDb project
 
 ### Description
