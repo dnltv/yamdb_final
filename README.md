@@ -115,11 +115,11 @@ sudo sh get-docker.sh
 ```
 - Copy `nginx/default.conf` to server from your local machine (Command from the root directory of the project).
 ```bash
-scp -r infra/nginx/ <username>@<host>/home/<username>/
+scp -r infra/nginx/ <username>@<host>:/home/<username>/
 ```
 - Copy `docker-compose.yaml` to server from your local machine (Command from the root directory of the project).
 ```bash
-scp infra/docker-compose.yaml <username>@<host>/home/<username>/
+scp infra/docker-compose.yaml <username>@<host>:/home/<username>/
 ```
 
 - Perform migrations on server:
